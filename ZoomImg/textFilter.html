@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        h1{
+            background:orange;
+            padding:10px;
+            color:black
+        }
+        span{
+            margin:10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainDiv">
+
+             <h1 id="heading">Main Text</h1>
+
+    </div> 
+
+    <span onclick="txt1()">Text1</span>
+    <span onclick="txt2()">Text2</span>
+    <span onclick="txt3()">Text3</span>
+   
+<script>
+    var heading =document.getElementById("heading");
+
+    function txt1(){
+        heading.innerHTML ="Text1";
+    }
+
+    function txt2(){
+        heading.innerHTML ="Text2";
+    }
+
+
+    function txt3(){
+        heading.innerHTML ="Text3";
+    }
+</script>
+
+
+
+</body>
+</html>

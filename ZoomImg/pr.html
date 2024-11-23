@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="mainDiv">
+        <img src="on.png" id="mainImg" alt="">
+    </div>
+    <img onclick ="img1()" src="ofTwo.jpg" alt="">
+    <img onclick ="img2()" src="nw.png" alt="">
+    <img onclick ="img3()" src="s.jpg" alt="">
+<script>
+  var mnimg = document.getElementById("mainImg");
+
+    function img1(){
+        mnimg.src="ofTwo.jpg";
+    }
+    function img2(){
+        mnimg.src="nw.png";
+    }
+    function img3(){
+        mnimg.src="s.jpg";
+    }
+</script>
+</body>
+</html>
